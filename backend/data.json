@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nome": "Apartamento Beira-Mar",
+        "imagem": "https://picsum.photos/id/49/200/300",
+        "preco_noite": 350,
+        "localizacao": "Florianópolis, SC"
+    },
+    {
+        "id": 2,
+        "nome": "Chalé na Serra",
+        "imagem": "https://picsum.photos/id/94/200/300",
+        "preco_noite": 500,
+        "localizacao": "Campos do Jordão, SP"
+    },
+    {
+        "id": 3,
+        "nome": "Mansão em Copacabana",
+        "imagem": "https://picsum.photos/id/32/200/300",
+        "preco_noite": 800,
+        "localizacao": "Rio de Janeiro, RJ"
+    },
+    {
+        "id": 4,
+        "nome": "Pousada Beira-Mar",
+        "imagem": "https://picsum.photos/id/27/200/300",
+        "preco_noite": 350,
+        "localizacao": "Florianópolis, SC"
+    },
+    {
+        "id": 5,
+        "nome": "Apartamento Central",
+        "imagem": "https://picsum.photos/id/37/200/300",
+        "preco_noite": 500,
+        "localizacao": "São Paulo, SP"
+    },
+    {
+        "id": 6,
+        "nome": "Casa na Lagoa",
+        "imagem": "https://picsum.photos/id/68/200/300",
+        "preco_noite": 450,
+        "localizacao": "Florianópolis, SC"
+    },
+    {
+        "id": 7,
+        "nome": "Chalé na Serra",
+        "imagem": "https://picsum.photos/id/75/200/300",
+        "preco_noite": 600,
+        "localizacao": "Gramado, RS"
+    },
+    {
+        "id": 8,
+        "nome": "Cobertura de Luxo",
+        "imagem": "https://picsum.photos/id/23/200/300",
+        "preco_noite": 1200,
+        "localizacao": "Rio de Janeiro, RJ"
+    },
+    {
+        "id": 9,
+        "nome": "Flat Vista para o Mar",
+        "imagem": "https://picsum.photos/id/85/200/300",
+        "preco_noite": 400,
+        "localizacao": "Florianópolis, SC"
+    },
+    {
+        "id": 10,
+        "nome": "Sítio Tranquilo",
+        "imagem": "https://picsum.photos/id/100/200/300",
+        "preco_noite": 250,
+        "localizacao": "Montes Claros, MG"
+    }
+]
