@@ -1,4 +1,4 @@
-# Desafio Anfitrioões de Aluguel.
+# Desafio Anfitriões de Aluguel.
 
 ## Tecnologias Utilizadas
 
