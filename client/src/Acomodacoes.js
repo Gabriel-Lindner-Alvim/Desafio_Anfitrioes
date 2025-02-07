@@ -8,7 +8,7 @@ function Acomodacoes() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('/acomodacoes')
+    fetch('http://127.0.0.1:5000/acomodacoes')
       .then(response => response.json())
       .then(data => setAcomodacoes(data))
       .catch(error => console.error('Erro ao carregar acomodações:', error));
@@ -16,7 +16,7 @@ function Acomodacoes() {
 
   // const responsável pelo fetch das acomodacoes na cidade 'x' passada na search-bar, filtrando as acomodações pela cidade
   const buscarAcomodacoesCidade = () => {
-    fetch(`/acomodacoes?cidade=${encodeURIComponent(cidade)}`)
+    fetch(`http://127.0.0.1:5000/acomodacoes?cidade=${encodeURIComponent(cidade)}`)
       .then(response => {
         if (!response.ok) {
           throw new Error('Nenhuma acomodação encontrada.');
@@ -55,7 +55,7 @@ function Acomodacoes() {
 
   // const responsável para abrir a página de detalhes da acomodação a partir do clique do botão "ver detalhes"
   const navegarParaDetalhes = (id) => {
-    navigate(`/acomodacoes/${id}`);
+    navigate(`acomodacoes/${id}`);
   };
 
   return (

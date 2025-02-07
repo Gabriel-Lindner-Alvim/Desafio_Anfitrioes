@@ -7,7 +7,7 @@ function DetalhesAcomodacao() {
   const [detalhes, setDetalhes] = useState(null);
 
   useEffect(() => {
-    fetch(`/acomodacoes/${id}`)
+    fetch(`http://127.0.0.1:5000/acomodacoes/${id}`)
       .then(response => response.json())
       .then(data => setDetalhes(data))
       .catch(error => {
